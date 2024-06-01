@@ -94,7 +94,7 @@ func TestReverseExpandRespectsContextCancellation(t *testing.T) {
 
 	model := testutils.MustTransformDSLToProtoWithID(`model
   schema 1.1
-type user
+    type user
 type document
   relations
 	define viewer: [user]`)
